@@ -52,5 +52,8 @@ mvn spring-boot:run
 - Contribuciones
   - Si deseas contribuir a este proyecto, por favor realiza un fork del repositorio, crea una rama con tu función o corrección, y envía un pull request para revisión.
 
-Autor
-Este proyecto fue desarrollado por ChayChaio como parte de un desafío de programación.
+- Autor
+  - Este proyecto fue desarrollado por ChayChaio como parte de un desafío de programación.
+
+**Licencia**
+- Este proyecto está distribuido bajo la licencia MIT.
