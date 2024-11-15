@@ -151,11 +151,11 @@ public class Main {
             } else {
                 // Nuevo autor: guardar antes de asignarlo al libro
                 Autor nuevoAutor = new Autor(datosLibro.autores().get(0));
-                nuevoAutor = autorRepositorio.save(nuevoAutor); // Guardar y reatachar al contexto
+                nuevoAutor = autorRepositorio.save(nuevoAutor);
                 libro.setAutor(nuevoAutor);
             }
             try {
-                libroRepositorio.save(libro); // Guardar el libro con el autor gestionado
+                libroRepositorio.save(libro);
                 System.out.println(datosLibro);
                 System.out.println(" ");
             } catch (Exception e) {
